@@ -7,7 +7,6 @@ class Driver {
   };
   yearsExperienceFromBeginningOf(year){
     return year - startDate.getFullYear();
-    alert( year - startDate.getFullYear());
   };
 };
 class Route {
