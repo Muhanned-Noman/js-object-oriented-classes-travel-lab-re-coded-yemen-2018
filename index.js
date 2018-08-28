@@ -6,8 +6,8 @@ class Driver {
     this.startDate = new Date(startDate);
   };
   yearsExperienceFromBeginningOf(year){
-    let time = year - startDate.getFullYear();
-    return time;
+    return year - startDate.getFullYear();
+    alert( year - startDate.getFullYear());
   };
 };
 class Route {
