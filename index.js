@@ -19,4 +19,10 @@ class Route {
     let vertical = this.endingLocation.vertical - this.beginningLocation.vertical;
     return horizontal + vertical;
   };
+  estimatedTime(peakOrNot){
+    if(peakOrNot){
+      return this.blocksTravelled() / 2
+    }
+    return this.blocksTravelled() / 3
+  };
 };
